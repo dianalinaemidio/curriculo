@@ -1,0 +1,73 @@
+body {
+    background-color: #27262d;
+    color: #fff;
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 5px;
+    text-align: center;
+    color: #27262d;
+    overflow: hidden;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #27262d;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #27262d; /* Cor azul para os ícones */
+}
+
+.contact-info a {
+    color: #ff007f; /* Cor azul para os links */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Sublinhado no hover */
+}
+
+
+.info-box {
+    background-color: #27262d;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ff007f; /* Borda azul */
+}
+
+.info-box h4 {
+    border-bottom: 2px solid #ff007f;
+    padding-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #ff007f;
+    color: #27262d;
+    border-radius: 50px; /* Borda arredondada */
+    padding: 5px 15px; /* Espaçamento interno */
+    font-weight: bold;
+    font-size: 14px;
+}
